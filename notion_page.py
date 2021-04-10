@@ -21,8 +21,6 @@ class Logging:
     def __str__(self):
         return self.log
 
-    
-
 def regist_page(link:str, title:str):
     log = Logging()
 
@@ -175,4 +173,4 @@ def regist_page(link:str, title:str):
     return True
     
 if __name__ == '__main__':
-    regist_page('https://www.notion.so/a181b89cddbb4d03b0d62c5942948858', '먼데이닷컴 자동화 레시피 매뉴얼')
+    regist_page('', '')
